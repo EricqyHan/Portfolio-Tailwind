@@ -11,7 +11,11 @@
       <div
         class="container mx-auto flex items-center justify-between flex-wrap bg-blue-900"
       >
-        <img src="http://placekitten.com/50/50" alt="Placeholder image" />
+        <img
+          src="images/Untitled2.png"
+          alt="Placeholder image"
+          class="object-cover h-16"
+        />
 
         <!-- Home Icon -->
         <div class="home">
@@ -29,6 +33,23 @@
             />
           </svg>
           <p class="text-white">Home</p>
+        </div>
+
+        <!-- My Projects Icon -->
+        <div class="projects">
+          <a href="projects.html">
+            <svg
+              class="h-6 w-6 text-gray-500"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
+              ></path>
+            </svg>
+            <p class="text-white">Projects</p>
+          </a>
         </div>
 
         <!-- My Network Icon -->
@@ -93,7 +114,10 @@
         <div class="section-1 inline">
           <h1>Eric Han</h1>
           <h2>Full Stack Web Developer</h2>
-          <h3>East Hanover, New Jersey</h3>
+          <div class="flex">
+            <h3>East Hanover, New Jersey</h3>
+            <h3><strong>Contact Info</strong></h3>
+          </div>
         </div>
         <br />
         <div class="section-about">
@@ -117,7 +141,6 @@
               alt="Robert Half - Technology Logo"
               class=""
             />
-            <li></li>
           </div>
           <!-- Evco Mechanical -->
           <div class="evco">
@@ -134,15 +157,16 @@
         </div>
         <!-- Education -->
         <div class="education">
-          <div class="rutgers">
+          <div class="rutgers flex">
             <img src="images/Rutgers.png" alt="Rutgers" />
             <h1>Rutgers University - New Brunswick</h1>
             <h4>Bacherlor of Arts - BA, Labor Studies</h4>
             <h4>2012-2014</h4>
           </div>
-          <div class="ccm">
+          <div class="ccm flex">
             <img src="images/ccm.jpeg" alt="County College of Morris" />
             <h1>County College of Morris</h1>
+            <br />
             <h4>
               Associates of Science - AS, Business Administration and
               Management, General
@@ -153,6 +177,7 @@
       </div>
     </main>
     <!-- Footer Section -->
+    <hr />
     <footer class="container mx-auto items-center">
       <ul style="list-style-type: none;">
         <li><strong>&copy; 2020 Eric</strong></li>
