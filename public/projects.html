@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Eric Han's Project Page</title>
     <link rel="stylesheet" href="build/tailwind.css" />
+    <link rel="stylesheet" href="/css/styles.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css"
@@ -39,9 +40,7 @@
         <a class="text-white hover:text-blue-300" href="about.html">About</a>
       </li>
       <li class="mr-6 p-1">
-        <a class="text-white hover:text-blue-300" href="contact.html"
-          >Contact</a
-        >
+        <a class="text-white hover:text-blue-300" href="#contact">Contact</a>
       </li>
     </ul>
   </div>
@@ -90,21 +89,21 @@
   </div>
 
   <!-- Footer -->
-  <div class="w-full absolute bottom-0 bg-blue-900">
+  <div class="w-full absolute bg-blue-900">
     <div class="flex flex-wrap text-center text-white">
       <!-- ABOUT COLUMN -->
 
       <div class="w-full md:w-1/3 p-5 border-r border-blue-800 md:text-left">
-        <div class="my-6 ml-3 text-xl font-semibold">ABOUT THIS PORTFOLIO</div>
+        <div class="my-6 ml-3 text-xl font-semibold">
+          ABOUT THIS PORTFOLIO
+        </div>
         <p class="p-3 text-gray-400">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean ac est
-          massa. Donec eget elementum sapien, tincidunt tempor nunc. Cras
-          sodales id ipsum at convallis.
+          I build this portfolio using HTML and Tailwind CSS.
         </p>
         <p class="p-3 text-gray-400">
-          Morbi tristique massa nec massa auctor, at scelerisque felis
-          consectetur. Morbi tempus et odio sit amet feugiat. Maecenas dignissim
-          a turpis in molestie. Fusce tincidunt vestibulum iaculis.
+          My inspirations for programming come from Steve Wozniak, Flavio Copes,
+          and Brad Traversy. I took this picture of Fort Lee, New Jersey back in
+          2018 on a plane ride with an amazing friend and programmer.
         </p>
       </div>
 
@@ -113,40 +112,69 @@
       <div class="w-full md:w-1/3 p-5 border-r border-blue-800">
         <div class="my-6 text-xl font-semibold">CONTACT ME</div>
         <p class="mt-8 text-gray-400">
-          <strong>Email:</strong> ERICQYHAN@GMAIL.COM <br />
-          <strong>Linkedin:</strong> ERIC HAN <br />
-          <strong>Codepen:</strong> Eric Han <br />
-          <strong>GitHub:</strong> Ericqyhan <br />
+          <strong>Email:</strong
+          ><a href="mailto: ericqyhan@gmail.com" class="hover:text-red-300">
+            EricQYHan@gmail.com</a
+          ><br />
+          <strong>Linkedin:</strong
+          ><a
+            href="https://www.linkedin.com/in/eric-qy-han/"
+            class="hover:text-red-300"
+          >
+            Eric Han</a
+          ><br />
+          <strong>HackerRank:</strong
+          ><a
+            href="https://www.hackerrank.com/ericqyhan"
+            class="hover:text-red-300"
+          >
+            EricQYHan</a
+          ><br />
+          <strong>GitHub:</strong>
+          <a href="https://github.com/EricqyHan" class="hover:text-red-300">
+            EricQYHan</a
+          >
+          <br />
         </p>
         <div class="relative w-20 h-20 mx-auto my-12 bg-blue-300 rotate-45">
           <div
-            class="flex justify-center items-center absolute left-0 top-0 w-10 h-10 hover:-ml-1 hover:-mt-1 bg-blue-800 cursor-pointer"
+            class="flex justify-center items-center absolute left-0 top-0 w-10 h-10 hover:-ml-1 hover:-mt-1 bg-blue-800 cursor-pointer hover:bg-red-300"
           >
-            <i
-              class="fab fa-envelope-square fa-lg text-blue-500 -rotate-45"
-            ></i>
+            <a href="mailto: ericqyhan@gmail.com">
+              <i
+                class="fab fa-envelope-square fa-lg text-blue-500 -rotate-45"
+              ></i>
+            </a>
           </div>
           <div
-            class="flex justify-center items-center absolute top-0 right-0 w-10 h-10 hover:-mt-1 hover:-mr-1 bg-blue-800 cursor-pointer"
+            class="flex justify-center items-center absolute top-0 right-0 w-10 h-10 hover:-mt-1 hover:-mr-1 bg-blue-800 cursor-pointer hover:bg-red-300"
           >
-            <i class="fab fa-linkedin-in fa-lg text-blue-500 -rotate-45"></i>
+            <a href="https://www.linkedin.com/in/eric-qy-han/">
+              <i class="fab fa-linkedin-in fa-lg text-blue-500 -rotate-45"></i>
+            </a>
           </div>
           <div
-            class="flex justify-center items-center absolute right-0 bottom-0 w-10 h-10 hover:-mr-1 hover:-mb-1 bg-blue-800 cursor-pointer"
+            class="flex justify-center items-center absolute right-0 bottom-0 w-10 h-10 hover:-mr-1 hover:-mb-1 bg-blue-800 cursor-pointer hover:bg-red-300"
           >
-            <i class="fab fa-github-square fa-lg text-blue-500 -rotate-45"></i>
+            <a href="https://github.com/EricqyHan">
+              <i
+                class="fab fa-github-square fa-lg text-blue-500 -rotate-45"
+              ></i>
+            </a>
           </div>
           <div
-            class="flex justify-center items-center absolute bottom-0 left-0 w-10 h-10 hover:-mb-1 hover:-ml-1 bg-blue-800 cursor-pointer"
+            class="flex justify-center items-center absolute bottom-0 left-0 w-10 h-10 hover:-mb-1 hover:-ml-1 bg-blue-800 cursor-pointer hover:bg-red-300"
           >
-            <i class="fab fa-codepen fa-lg text-blue-500 -rotate-45"></i>
+            <a href="https://www.hackerrank.com/ericqyhan">
+              <i class="fab fa-hackerrank fa-lg text-blue-500 -rotate-45"></i>
+            </a>
           </div>
         </div>
       </div>
 
       <!-- FORM COLUMN -->
 
-      <div class="w-full md:w-1/3 p-5">
+      <div class="w-full md:w-1/3 p-5" id="contact">
         <div class="mt-6 text-xl font-semibold">SAY HELLO!</div>
         <form class="w-4/5 mx-auto mt-2 px-6 pt-6 pb-4 rounded">
           <div class="flex items-center mb-4">
@@ -181,6 +209,4 @@
       </div>
     </div>
   </div>
-  <!-- Container end -->
-  <!-- </div> -->
 </html>
